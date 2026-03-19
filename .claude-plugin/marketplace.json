@@ -2,12 +2,16 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "directadmin-vps-skill",
   "description": "DirectAdmin VPS skill for Claude Code",
+  "owner": {
+    "name": "dweck2k",
+    "email": ""
+  },
   "plugins": [
     {
       "name": "directadmin-vps",
       "description": "Manage a DirectAdmin VPS control panel via its REST API — server status, databases, CustomBuild, ClamAV, FTP accounts, user management, and cPanel migration.",
       "category": "devops",
-      "source": ".",
+      "source": "./",
       "homepage": "https://github.com/dweck2k/directadmin-vps-skill"
     }
   ]
